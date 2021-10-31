@@ -36,17 +36,17 @@
 
 ## Heroku applications 
 
-* dimaalabsi-server-deploy-dev.herokuapp.com
-* dimaalabsi-server-deploy-prod.herokuapp.com
+*  [dev branch](https://dimaalabsi-server-deploy-dev.herokuapp.com)    dimaalabsi-server-deploy-dev.herokuapp.com
+*   [main branch](https://dimaalabsi-server-deploy-prod.herokuapp.com)  dimaalabsi-server-deploy-prod.herokuapp.com
 
 ## Github actions
 
-* github.com/DimaAlabsi/server-deployment-practice/actions
- [actions](https://github.com/DimaAlabsi/server-deployment-practice/actions)  
+*    [actions](https://github.com/DimaAlabsi/server-deployment-practice/actions)  github.com/DimaAlabsi/server-deployment-practice/actions
+  
 
 ## pull request
 
-* github.com/DimaAlabsi/server-deployment-practice/pull/4
+* [last pull request](https://github.com/DimaAlabsi/server-deployment-practice/pull/4) github.com/DimaAlabsi/server-deployment-practice/pull/4
 
 ## UML
 

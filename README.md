@@ -1,7 +1,56 @@
 # server-deployment-practice
 
+# LAB - 01
+ # Deployment Test
+## Author: Dima Alabsi
 
-How do I run the app?
+* submission PR
 
-## npm run dev
+## Setup
+ .env requirements
+* PORT - 8080
+## Running the app
+* npm run dev
+
+* Endpoint:  **/status** 
+
+    * Returns Object
+
+{
+
+  ***"domain1": "dimaalabsi-server-deploy-dev.herokuapp.com",***
+
+  ***"domain2": "dimaalabsi-server-deploy-prod.herokuapp.com",***
+
+  ***"status": "running",***
+
+  ***"port": 42123***
+
+}
+
+
+## Tests
+
+* Unit Tests: npm run test
+
+
+## Heroku applications 
+
+* dimaalabsi-server-deploy-dev.herokuapp.com
+* dimaalabsi-server-deploy-prod.herokuapp.com
+
+## Github actions
+
+
+
+## pull request
+
+
+## UML
+
+![notes](img/notes2.png)
+
+![notes](/img/notes.png)
+
+
 

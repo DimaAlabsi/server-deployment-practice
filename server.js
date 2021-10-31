@@ -14,6 +14,18 @@ app.get('/', (req, res) => {
   res.status(200).send('All is good 🥳');
 });
 
+app.get ('/status',  (req, res) => {
+
+  
+  res.status(200).send({
+    
+  "domain1": "dimaalabsi-server-deploy-dev.herokuapp.com",
+  "domain2": "dimaalabsi-server-deploy-prod.herokuapp.com",
+  "status": "running",
+  "port": 8080
+
+  });
+});
 /**
  * general example data route
  */

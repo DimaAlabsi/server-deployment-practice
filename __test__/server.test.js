@@ -24,7 +24,7 @@ describe('API Server Testing', () => {
   test('/data works', async () => {
     const response = await request.get('/data');
     expect(response.status).toEqual(200);
-    expect(typeof response.body).toEqual('object'); // checking the type of th response 
+    expect(typeof response.body).toEqual('object'); // checking the type of th respons
 
   });
   // test if the stamper middleware works

@@ -4,8 +4,6 @@
  # Deployment Test
 ## Author: Dima Alabsi
 
-* submission PR
-
 ## Setup
  .env requirements
 * PORT - 8080

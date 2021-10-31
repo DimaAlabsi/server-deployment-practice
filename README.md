@@ -42,7 +42,7 @@
 ## Github actions
 
 * github.com/DimaAlabsi/server-deployment-practice/actions
- [actions](github.com/DimaAlabsi/server-deployment-practice/actions)  
+ [actions](https://github.com/DimaAlabsi/server-deployment-practice/actions)  
 
 ## pull request
 

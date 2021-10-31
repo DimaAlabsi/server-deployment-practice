@@ -6,16 +6,12 @@ require('dotenv').config();
 const PORT = process.env.PORT || 3000;
 const notFoundHandler = require('./handlers/404');
 const errorHandler = require('./handlers/500');
-const stamper = require('./middleware/stamper');
+const stamper = require('./middleware.js/stamper');
 /**
  * Proof of life route
  */
-app.get('/status', (req, res) => {
-  res.status(200).send({
-    "domain": "john-api-server.demo.herokuapp.com",
-    "status": "running",
-    "port": 8080
-  });
+app.get('/', (req, res) => {
+  res.status(200).send('All is good 🥳');
 });
 
 /**
